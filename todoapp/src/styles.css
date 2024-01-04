@@ -1,0 +1,37 @@
+.Application {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Header { 
+  text-align: center;
+}
+
+.TodoList { 
+  display: inline-block;
+  text-align: left;
+}
+
+.TodoItem { 
+  display: flex;  
+  justify-content: space-between;
+  width: 500px;
+  margin: 10px; 
+}
+
+.clear-all-button {
+  padding: 10px;
+  border: none;
+  background-color: red;
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.TodoItemButton {
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  font-size: 1.1rem;
+  background-color: lightgreen;
+}
